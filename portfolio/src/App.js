@@ -1,16 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
-
+import ResponsiveAppBar from './Navbar';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <ResponsiveAppBar></ResponsiveAppBar>
+      </header>
+      <body>
+      <p>
           CONTENT
         </p>
-      </header>
+      </body>
     </div>
   );
 }
