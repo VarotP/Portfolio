@@ -6,7 +6,8 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <Container>
       <Typography style={{fontFamily: 'Satoshi', fontSize: '64px'}}>Varot Pavaritpong</Typography>
-      <Typography style={{fontFamily: 'Satoshi', fontSize: '16px'}}> I code and make stuff</Typography>
+      <Typography style={{fontFamily: 'Satoshi', fontSize: '28px'}}>I code and make stuff</Typography>
+      <Typography style={{fontFamily: 'Satoshi', fontSize: '16px'}}>but also a UBC CS student</Typography>
       </Container>
       
       <AppBar style={{backgroundColor: 'purple'}}>
@@ -17,10 +18,12 @@ export default function Home() {
             <Button style={{ backgroundColor: 'black', color: 'white' }}>LinkedIn</Button>
             <Button style={{ backgroundColor: 'black', color: 'white' }}>Email</Button>
           </Container>
-        
-      
         </Toolbar>
       </AppBar>
+
+      <Container>
+        <Typography style={{fontFamily: 'Satoshi', fontSize: '48px'}}>Projects</Typography>
+      </Container>
       
     </main>
   )
