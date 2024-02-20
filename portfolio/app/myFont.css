@@ -1,0 +1,7 @@
+/* src/fonts/myfont.css */
+@font-face {
+    font-family: 'MyFont';
+    src: url('../fonts/Satoshi-Medium.ttf') format('Satoshi');
+    /* Add more src declarations for different file formats if needed */
+  }
+  
