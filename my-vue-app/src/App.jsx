@@ -22,14 +22,20 @@ function App() {
       <AppBar style={{ backgroundColor: 'purple' }}>
         <Toolbar>
           <Container style={{ display: 'flex', justifyContent: 'flex-end' }}>
-          <Button style={{ backgroundColor: 'black', color: 'white', marginLeft: '20px'}} onClick={handleHomeClick}>Home</Button>
-            <Button style={{ backgroundColor: 'black', color: 'white'}} onClick={handleBlogClick}>Blog</Button>
+            <div>
+              {isHomePage ? (
+                <Button style={{ backgroundColor: 'black', color: 'white'}} onClick={handleBlogClick}>Blog</Button>
+              ) : (
+                <Button style={{ backgroundColor: 'black', color: 'white', marginLeft: '20px'}} onClick={handleHomeClick}>Home</Button>
+              )}
+            </div>
             <Button style={{ backgroundColor: 'black', color: 'white' }} href='https://www.instagram.com/val12.ig/'>Instagram</Button>
             <Button style={{ backgroundColor: 'black', color: 'white' }} href='https://www.linkedin.com/in/varot-pavaritpong/'>LinkedIn</Button>
             <Button style={{ backgroundColor: 'black', color: 'white' }} href='https://github.com/VarotP'>GitHub</Button>
           </Container>
         </Toolbar>
       </AppBar>
+      
       </div>
       {isHomePage ? (
         <Home/>
