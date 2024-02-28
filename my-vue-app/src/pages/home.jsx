@@ -16,19 +16,46 @@ const Home = () => {
             <Typography style={{ fontFamily: 'Satoshi', fontSize: '48px' }} gutterBottom>Projects</Typography>
               <Box sx={{ display: 'inline-flex', flexDirection: 'column', justifyContent: 'space-evenly', minHeight: '1000px'}}>
                 <Box sx={{ display: 'inline-flex', justifyContent: 'space-evenly', minWidth: '1080px' }}>
-                  <ProjectCard/>
-                  <ProjectCard/>
-                  <ProjectCard/>
+                  <ProjectCard
+                    title={"DailyPlan Forecast"} 
+                    description={"This project allows users to plan out their week in relation to the predicted weathers for each day"}
+                  />
+                  <ProjectCard
+                    title={"Temp title"}
+                    description={"Temp description"}
+                  />
+                  <ProjectCard
+                    title={"Temp title"}
+                    description={"Temp description"}
+                  />
                 </Box>
                 <Box sx={{ display: 'inline-flex', justifyContent: 'space-evenly', minWidth: '1080px'  }}>
-                <ProjectCard/>
-                <ProjectCard/>
-                <ProjectCard/>
+                  <ProjectCard
+                    title={"Temp title"}
+                    description={"Temp description"}
+                  />
+                  <ProjectCard
+                    title={"Temp title"}
+                    description={"Temp description"}
+                  />
+                  <ProjectCard
+                    title={"Temp title"}
+                    description={"Temp description"}
+                  />
                 </Box>
                 <Box sx={{ display: 'inline-flex', justifyContent: 'space-evenly', minWidth: '1080px'  }}>
-                <ProjectCard/>
-                <ProjectCard/>
-                <ProjectCard/>
+                  <ProjectCard
+                    title={"Temp title"}
+                    description={"Temp description"}
+                  />
+                  <ProjectCard
+                    title={"Temp title"}
+                    description={"Temp description"}
+                  />
+                  <ProjectCard
+                    title={"Temp title"}
+                    description={"Temp description"}
+                  />
                 </Box>
               </Box>
             </Container>
